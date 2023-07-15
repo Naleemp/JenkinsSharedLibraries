@@ -1,4 +1,4 @@
-def call(String stageName){  
+def callStages(String stageName){  
   if ("${stageName}" == "Build")
      {
        sh "mvn clean package"
