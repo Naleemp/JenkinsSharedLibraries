@@ -1,4 +1,4 @@
-def call(String mavenGoal){  
+def callStages(String mavenGoal){  
   if ("${mavenGoal}" == "Clean")
      {
        sh "mvn clean"
